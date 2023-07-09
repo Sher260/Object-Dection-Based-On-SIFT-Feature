@@ -1,0 +1,8 @@
+# Object-Dection-Based-On-SIFT-Feature
+
+#  extract_features.py用于提取数据集特征的词汇表，并且基于词汇表将特征聚类，形成维数固定的SIFT特征。图像特征和标签特征储存在data_x和data_y
+#  TrainSVM.py用于训练SVM分类器并分类，可统计的指标有R PRE ACC MA FA
+#  ObjectDetector.py用于显示出检测的具体效果
+#  SIFTshow.py用于展示提取SIFT特征点的结果
+#  test.py XMLtoMASK.py xmltotxt.py PrepareforDataset.py 均为批量处理文件或文件夹的代码
+#  其他均为过程中产生的数据文件
